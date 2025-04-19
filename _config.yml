@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: liujianmeism@gmail.com
 description: "这里是 @WHY 的个人博客，与你一起发现更大的世界"
 keyword: "WHY 只是个测试"
-url: "https://huangxuan.me" # your host, for absolute URL
+url: "oceanbreeze.dpdns.org" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -16,7 +16,7 @@ RSS: false
 weibo_username: 无
 zhihu_username: 无
 github_username: Niganma233
-twitter_username: 不与说明
+twitter_username: LZ_ZhangYi
 #facebook_username:  无
 #linkedin_username:  firstname-lastname-idxxxx
 

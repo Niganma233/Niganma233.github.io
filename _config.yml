@@ -13,8 +13,8 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: 无
-zhihu_username: 无
+weibo_username: 没注册
+zhihu_username: 没注册
 github_username: Niganma233
 twitter_username: LZ_ZhangYi
 #facebook_username:  无

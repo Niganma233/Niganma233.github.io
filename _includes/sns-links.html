@@ -78,15 +78,16 @@
     </a>
   </li>
   {% endif %}
-  {% if site.bilibili_username %}
+  {% if site.bilibili_username %}  <!-- 检查 _config.yml 中是否存在 bilibili_username -->
   <li>
-    <a target="_blank" href="https://www.bilibili.com/video/{{ site.bilibili_username }}"> 
+    <a target="_blank" href="https://www.bilibili.com/video/{{ site.bilibili_username }}"> <!-- Bilibili 链接，使用配置中的用户ID -->
       <span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x"></i> 
-        <i class="fa fa-television fa-stack-1x fa-inverse"></i>
+        <i class="fa fa-circle fa-stack-2x"></i> <!-- 背景圆圈，与 LinkedIn 格式一致 -->
+        <i class="fab fa-bilibili fa-stack-1x fa-inverse"></i> <!-- Bilibili 官方品牌图标 -->
       </span>
     </a>
   </li>
   {% endif %}
+
 
 </ul>

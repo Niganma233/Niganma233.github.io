@@ -78,4 +78,15 @@
     </a>
   </li>
   {% endif %}
+  {% if site.bilibili_userid %}  <!-- 检查 _config.yml 中是否存在 bilibili_userid -->
+  <li>
+    <a target="_blank" href="https://space.bilibili.com/{{ site.bilibili_userid }}"> <!-- Bilibili 链接，使用配置中的用户ID -->
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i> <!-- 背景圆圈，与 LinkedIn 格式一致 -->
+        <i class="fab fa-bilibili fa-stack-1x fa-inverse"></i> <!-- Bilibili 官方品牌图标 -->
+      </span>
+    </a>
+  </li>
+  {% endif %}
+
 </ul>

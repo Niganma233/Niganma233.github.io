@@ -18,12 +18,12 @@
     </a>
   </li>
   {% endif %}
-  {% if site.twitter_username %}
+  {% if site.x_username %}  {# 使用新的变量名 #}
   <li>
-    <a href="https://twitter.com/{{ site.twitter_username }}">
+    <a href="https://x.com/{{ site.x_username }}"> {# 这里也使用了变量 #}
       <span class="fa-stack fa-lg">
-        <i class="fas fa-circle fa-stack-2x"></i>   <!-- 从 fa 改为 fas -->
-        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i> <!-- 从 fa 改为 fab -->
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-x-twitter fa-stack-1x fa-inverse"></i>
       </span>
     </a>
   </li>

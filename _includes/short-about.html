@@ -11,4 +11,40 @@
     <!-- SNS Link -->
     {% include sns-links.html %}
   </div>
+
+  <!-- 插入的音乐播放器模块 -->
+<!-- 这是一个简单的音乐播放器容器，可以加一些样式 -->
+<div class="sidebar-module music-player-container">
+  <h4>我的音乐</h4>
+  <audio controls loop>
+      <source src="/music/Never gonna give you up.mp3" type="audio/mpeg">
+      <!-- 可以添加更多格式的 source -->
+      <!-- <source src="/path/to/your/music.ogg" type="audio/ogg"> -->
+      您的浏览器不支持 audio 元素。
+  </audio>
+  <!-- 如果需要，可以在这里添加歌曲名称或其他信息 -->
+  <!-- <p>歌曲名 - 艺术家</p> -->
+</div>
+
+<style>
+/* 添加一些简单的样式，让播放器在侧边栏中看起来更好 */
+.music-player-container {
+  margin-bottom: 20px; /* 在播放器下方添加一些间距 */
+  padding: 15px;
+  /* 可以根据你的模板风格添加背景色、边框等 */
+  /* background-color: #f8f8f8; */
+  /* border: 1px solid #eee; */
+  /* border-radius: 5px; */
+}
+
+.music-player-container h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1em; /* 根据侧边栏其他标题调整 */
+}
+
+.music-player-container audio {
+  width: 100%; /* 让播放器宽度适应侧边栏 */
+}
+</style>
 </section>

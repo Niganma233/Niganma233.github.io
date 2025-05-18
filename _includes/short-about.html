@@ -12,11 +12,11 @@
     {% include sns-links.html %}
   </div>
 
-  <!-- 插入的音乐播放器模块 -->
 <!-- 这是一个简单的音乐播放器容器，可以加一些样式 -->
 <div class="sidebar-module music-player-container">
   <h4>我的音乐</h4>
-  <audio controls loop>
+  <!-- 添加了 autoplay 属性 -->
+  <audio controls loop autoplay>
       <source src="/music/Never gonna give you up.mp3" type="audio/mpeg">
       <!-- 可以添加更多格式的 source -->
       <!-- <source src="/path/to/your/music.ogg" type="audio/ogg"> -->

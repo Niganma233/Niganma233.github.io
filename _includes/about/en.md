@@ -1,5 +1,5 @@
 # About Me
-Hi, I'm WHY, currently a second-year student at a middle school in Shenzhen. By chance, I met onecreeper and learned some Python and Java from the books he brought to the dorm (I can only read some simple code, I basically have no ability to write code myself). Currently, I enjoy finding interesting projects on GitHub and deploying them on my computer, just like this blog which I forked from @huxpro and deployed using GitHub Pages.
+Hi, I'm WHY, currently a second-year high school student in Shenzhen. Through a chance encounter, I met onecreeper and used programming books he brought to the dormitory to learn some Python and Java (though I can only read simple code and have essentially no coding ability myself). Now I enjoy discovering fun projects on GitHub to deploy on my computer – for instance, this blog was forked from @huxpro and deployed using GitHub Pages.
 
 ## Will This Blog Continue to Be Updated?
 This mainly depends on whether I have time. If the curriculum in my third year of high school is not so heavy later on, I might share some projects I find on GitHub here.

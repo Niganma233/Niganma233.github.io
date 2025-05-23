@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "别的都还没改，这个就先将就着看吧"
+title:        "我还会接着更新吗？"
 author:       "WHY"
 header-style: text
 catalog:      true

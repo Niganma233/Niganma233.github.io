@@ -37,4 +37,4 @@ tags:
 2. fork一份到你自己名下
 3. 在你的cloudflare Pages中创建项目并链接你fork的代码库
 4. 在环境变量中设置PASSWORD和ADMINPASSWORD变量
-5.　享受独属于你的影视聚合
+5. 享受独属于你的影视聚合
